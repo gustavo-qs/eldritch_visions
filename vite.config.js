@@ -16,6 +16,7 @@ export default defineConfig({
         start_url: '/eldritch_visions/'
       },
       workbox: {
+        maximumFileSizeToCacheInBytes: 15 * 1024 ** 2,
         cleanupOutdatedCaches: false,
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,vue,txt,woff2}']
       },
