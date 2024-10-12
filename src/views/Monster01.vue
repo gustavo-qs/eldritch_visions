@@ -68,7 +68,7 @@ export default {
       const imageTracking = featuresManager.enableFeature(BABYLON.WebXRFeatureName.IMAGE_TRACKING, 'latest', {
         images: [
           {
-            src: 'https://cdn.babylonjs.com/imageTracking.png',
+            src: 'https://github.com/gustavo-qs/eldritch_visions/blob/main/src/assets/qrcode.png?raw=true',
             estimatedRealWorldWidth: 0.2
           }
         ]
