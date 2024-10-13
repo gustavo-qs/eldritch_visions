@@ -59,7 +59,7 @@ export default {
       scene.createDefaultEnvironment({ createGround: false, createSkybox: false });
 
       const root = new BABYLON.TransformNode('root', scene);
-      const model = await BABYLON.SceneLoader.ImportMeshAsync('', 'https://cdn.tinyglb.com/models/', 'aaa80e82c62a475a821170e0c447ad2f.glb', scene);
+      const model = await BABYLON.SceneLoader.ImportMeshAsync('', 'https://cdn.tinyglb.com/models/', 'be180dfc00cc4150a5bba2f349e58fcc.glb', scene);
       model.meshes[0].parent = root;
       root.rotationQuaternion = new BABYLON.Quaternion();
 
@@ -68,7 +68,7 @@ export default {
       const imageTracking = featuresManager.enableFeature(BABYLON.WebXRFeatureName.IMAGE_TRACKING, 'latest', {
         images: [
           {
-            src: 'https://cdn.babylonjs.com/imageTracking.png',
+            src: 'https://github.com/gustavo-qs/eldritch_visions/blob/main/src/assets/qrcode.png?raw=true',
             estimatedRealWorldWidth: 0.2
           }
         ]
